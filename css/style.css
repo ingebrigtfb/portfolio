@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    min-height: 100vh;
+    min-height: 0;
     background-color: black;
 }
 
@@ -16,7 +16,7 @@ main {
     background-image: url('../media/img/IMG_60671.png');
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 90vh; 
 }
 
 
@@ -24,6 +24,11 @@ footer {
     height: 100px;
     background-color: black;
 }
+
+h1, h2, h3 {
+    font-size: 34px;
+}
+
 
 
 /* Header */
@@ -40,6 +45,11 @@ footer {
     justify-content: space-between;
 }
 
+.header-container img {
+    width: 186px;
+    height: 70px;
+}
+
 nav ul li {
     list-style: none;
 
@@ -53,6 +63,88 @@ nav a {
     margin: 0 50px;
     font-size: 24px;
 }
+
+.active {
+    text-decoration: underline;
+}
+
+
+/* home page */
+
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+
+.project-card {
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 300px;
+    height: 50vh;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 30px 30px;
+
+}
+
+.project-card:hover {
+    padding: 35px 35px;
+
+}
+
+.project-card a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.project-card h2 {
+    text-align: center;
+}
+
+.github-field, .site-link {
+    background-color: white;
+    color: black;
+    width: 150px;
+    text-align: center;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.github-field img, .site-link img {
+    width: 30px;
+    height: 30px;
+}
+
+.project-card > img {
+    width: 200px;
+}
+
+main > h1 {
+    color: white;
+    text-align: center;
+
+} 
+
+
+
+
+
+
+
+
 
 
 
