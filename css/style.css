@@ -181,7 +181,7 @@ main > h1 {
         display: flex;
         width: 100%;
         position: absolute;
-        background-color: green;
+        background-color: black;
         top: 100px;
         text-align: center;
         
